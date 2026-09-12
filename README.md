@@ -139,7 +139,7 @@ Detailed project report: [`AlgaeGuard_Report_Hackout26.docx`](report/AlgaeGuard_
 
 ## 👥 Team
 
-Built with ❤️ for Hackout'26
+The Archies
 
 ## 📜 License
 
