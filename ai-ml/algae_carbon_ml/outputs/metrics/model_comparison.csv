@@ -1,0 +1,4 @@
+Model,MAE,RMSE,R²
+LinearRegression,0.03155,0.039881,0.997631
+RandomForestRegressor,0.058794,0.087259,0.988657
+GradientBoostingRegressor,0.061441,0.09405,0.986823
