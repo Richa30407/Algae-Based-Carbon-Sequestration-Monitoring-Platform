@@ -25,8 +25,9 @@ Algae-Based-Carbon-Sequestration-Monitoring-Platform/
 ├── report/
 │   └── AlgaeGuard_Report_Hackout26.docx
 │
-├── arduino/
-│   └── AlgaeGuard.ino
+├── Hardware Implementation/
+│   ├── esp32_cam_sensor_circuit_and_serial_output.jpeg
+│   └── README.md
 │
 ├── ai-ml/
 │   └── algae_carbon_ml/
@@ -54,11 +55,12 @@ Algae-Based-Carbon-Sequestration-Monitoring-Platform/
 
 ## 🔧 Components
 
-### 🔌 Arduino (IoT Sensors)
-Hardware interface using Arduino to collect real-time environmental data:
-- Temperature, pH, dissolved oxygen
-- Light intensity, CO₂ concentration
-- Water quality index
+### 🔌 Hardware Implementation (ESP32-CAM + ADS1115)
+IoT hardware interface using **ESP32-CAM** and **ADS1115 ADC** to collect real-time environmental data:
+- Light intensity, pH level
+- Turbidity, Dissolved Oxygen (DO)
+- I2C communication with ADS1115 for precise analog readings
+- Firmware built with ESP-IDF / FreeRTOS on [Velxio](https://velxio.dev)
 
 ### 🤖 AI/ML Module
 Machine learning pipeline for biomass prediction and CO₂ uptake estimation:
@@ -81,7 +83,7 @@ Simulation module for testing and validating the platform without hardware.
 
 ### Prerequisites
 - Python 3.13+
-- Arduino IDE (for hardware component)
+- ESP-IDF / [Velxio IDE](https://velxio.dev) (for hardware component)
 - Node.js (for dashboard)
 
 ### AI/ML Setup
