@@ -38,3 +38,4 @@ DO voltage       : 2.000 V
 - **IDE:** [Velxio](https://velxio.dev) (ESP-IDF based)
 - **Firmware:** C (ESP-IDF / FreeRTOS)
 - **Communication:** I2C (ADS1115), Serial (115200 baud)
+- **Project Link:** [https://velxio.dev/24bec029/algaemonitoring](https://velxio.dev/24bec029/algaemonitoring)
