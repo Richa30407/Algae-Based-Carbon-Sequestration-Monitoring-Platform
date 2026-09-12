@@ -2,6 +2,8 @@
 
 > Real-time monitoring and AI-powered prediction for algae-based carbon capture systems.
 
+🌐 **Live Demo:** [https://algaeguard.vercel.app](https://algaeguard.vercel.app/)
+
 Built for **Hackout'26** 🏆
 
 ---
@@ -75,6 +77,7 @@ Interactive web dashboard for real-time monitoring and visualization of:
 - Biomass growth trends
 - CO₂ uptake metrics
 - Predictive analytics
+- 🔗 **Live:** [https://algaeguard.vercel.app](https://algaeguard.vercel.app/)
 
 ### 🧪 Simulation
 Simulation module for testing and validating the platform without hardware.
